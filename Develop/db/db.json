@@ -1,18 +1,13 @@
-[
-    {"title":"my first note","text":"I really hope this works","id":"0"},
-    {"title":"my second note","text":"Let's see what happens","id":"1"},
-    {"title":"my second note","text":"Let's see what happens","id":"2"},
-
-{"title":"trying to push","text":"this is like pretty crazy"},
-{"title":"trying to push","text":"this is like pretty crazy"},
-{"title":"trying to push","text":"this is like pretty crazy"},
-{"title":"trying to push","text":"this is like pretty crazy"},
-{"title":"trying to push","text":"this is like pretty crazy"},
-{"title":"let try again","text":"lorem ipsum blah"},
-{"title":"let try again","text":"lorem ipsum blah","id":""},
-{"title":"let go try again","text":" bluh bj lorem ipsum blah","id":"7"},
-{"title":"let go try again","text":" bluh bj lorem ipsum blah","id":"8"}
-{"title":"let go try again","text":" bluh bj lorem ipsum blah","id":"9"}
-{"title":"let go try again","text":" bluh bj lorem ipsum blah","id":"10"}
-{"title":"let go try again","text":" bluh bj lorem ipsum blah","id":"10"}]
-{"title":"let go try again","text":" bluh bj lorem ipsum blah","id":"12"}
+[{
+    "title": "another one",
+    "text": "what up homie!",
+    "id": "11"
+}, {
+    "id": 12,
+    "title": "important note",
+    "note": "study a lot"
+}, {
+    "id": 13,
+    "title": "important eeee",
+    "note": "study a lotttttt"
+}]
