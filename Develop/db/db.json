@@ -1,13 +1,1 @@
-[{
-    "title": "another one",
-    "text": "what up homie!",
-    "id": "11"
-}, {
-    "id": 12,
-    "title": "important note",
-    "note": "study a lot"
-}, {
-    "id": 13,
-    "title": "important eeee",
-    "note": "study a lotttttt"
-}]
+[{"title":"another one","text":"what up homie!","id":"11"},{"id":12,"title":"important note","note":"study a lot"},{"id":13,"title":"important eeee","note":"study a lotttttt"},{"title":"a good one","text":"make sure to make it a good one"}]
