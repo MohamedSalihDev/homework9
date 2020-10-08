@@ -55,28 +55,28 @@ app.post("/api/notes/", function (req, res) {
 
 });
 
-// app.delete("/api/notes/:id", function (req, res) {
+app.delete("/api/notes/:id", function (req, res) {
 
 
-//   fs.readFile(__dirname + "/db/db.json", "utf8", function (error, data) {
-//     const idOfNoteToBeDeleted = req.params.id;
-//     const parsedData = JSON.parse(data);
+  fs.readFile(__dirname + "/db/db.json", "utf8", function (error, data) {
+    const idOfNoteToBeDeleted = req.params.id;
+    const parsedData = JSON.parse(data);
 
-//     if (error) {
-//       return console.log(error);
-//     }
-//     for (let i = 0; i < parsedData.length; i++) {
-//       if (idOfNoteToBeDeleted == parsedData[i].id) {
+    if (error) {
+      return console.log(error);
+    }
+    for (let i = 0; i < parsedData.length; i++) {
+      if (idOfNoteToBeDeleted == parsedData[i].id) {
 
-//         parsedData.splice([i], 1);
+        parsedData.splice([i], 1);
 
-//       }
-//     }
+      }
+    }
 
-//   });
+  });
 
-//   return res.json(false);
-// })
+  return res.json(false);
+})
 app.listen(PORT, function () {
   console.log("App listening on PORT " + PORT);
 });
